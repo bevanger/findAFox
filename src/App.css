@@ -44,3 +44,20 @@ img {
   background-color: black;
   border: 1px solid darkorange;
 }
+
+
+@media (max-width: 600px) {
+
+  .imgDiv {
+    margin: 0 auto;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  .new {
+    margin-top: 5%;
+    height: 3rem;
+  }
+}

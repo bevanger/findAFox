@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 
 const Fox = (props) => {
    const { fox } = props;
-    // console.log(fox);
 
    useEffect(() => {
     props.getFox();
